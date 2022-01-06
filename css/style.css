@@ -17,7 +17,7 @@ section {
 
 .row { 
     display: flex;
-    margin: 0px 150px;
+    margin: 0px 200px;
 } /** common style **/
 
 .content .row .text-area {
@@ -72,10 +72,14 @@ section {
 
 /** section-1 style end here **/
 
+#mission-bg {
+    background-color: rgb(247, 247, 247);
+}
+
 .title {
     font-size: 3em;
     text-align: center;
-    margin: 30px 0px;
+    padding-top: 30px;
 }
 
 .card img {
@@ -120,11 +124,12 @@ section {
 
 .background-1 .row .girls-img {
     width: 40%;
+    margin-top: 150px;
 }
 
 .background-1 .row .develop-text-area {
     width: 60%;
-    margin-top: 70px;
+    margin-top: 220px;
 }
 
 .background-1 .row .girls-img img {
@@ -139,6 +144,10 @@ section {
 
 /***third section end here***/
 
+#global-community-bg {
+    background-color: rgb(247, 247, 247);
+}
+
 .background-2 .row .text-area {
     width: 60%;
     margin-top: 200px;
@@ -146,7 +155,7 @@ section {
 
 .background-2 .row .image-area {
     width: 40%;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .background-2 .row .text-area h4 {
@@ -164,8 +173,8 @@ section {
 .blog-content .row #blog-card {
     height: 430px;
     width: 320px;
-    background-color: rgb(243, 243, 243);
-    margin: 0px 15px;
+    box-shadow: 0px 0px 7px 0px black;
+    margin: 0px 23px;
     text-align: center;
     color: rgb(71, 71, 71);
     border-radius: 10px;
@@ -187,7 +196,13 @@ section {
 #blog-card p {
     font-size: 1em;
     padding: 0px 20px;
+}
 
+.blog-title {
+    color:rgb(0, 255, 0);
+    font-size: 3em;
+    text-align: center;
+    margin: 30px 0px;
 }
 
 
