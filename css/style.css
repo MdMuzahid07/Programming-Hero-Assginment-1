@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}   /** common style **/
+
+.row { 
+    display: flex;
+    margin: 0px 150px;
+} /** common style **/
+
+.content .row .text-area {
+    width: 60%;
+}
+
+.content .row .img-area {
+    width: 40%;
+}
+
+.content .row .image-area img {
+    height: 500px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.row .text-area .title-text {
+    border-left: 5px solid rgb(0, 225, 255);
+    margin-top: 150px;
+    color: rgb(34, 34, 34);
+}
+
+.row .text-area .title-text h1 {
+    font-size: 4em;
+    margin: 10px 0px;
+}
+
+.paragraph {
+    color: rgb(34, 34, 34);
+    font-size: 1.1em;
+    margin: 30px  0px;
+}
+
+.button-btn {
+    font-size: 1.2em;
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    margin: 20px 0px;
+} /** common style **/
+
+.color-text {
+    color:rgb(0, 255, 0);
+} /** common style **/
+
+.row .text-area .scroll-down {
+    margin: 5rem 0;
+    color: rgb(34, 34, 34);
+    font-size: 1em;
+}
+
+/** section-1 style end here **/
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+}
+
+.card {
+    height: 350px;
+    width: 300px;
+    margin: 0px 35px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#card-1 {
+    background-color: #EDF5F6;
+}
+
+#card-2 {
+    background-color: #FFEEEE;
+}
+
+#card-3 {
+    background-color: #FFF4D6;
+}
+
+.card h3 {
+    font-size: 2em;
+    color: rgb(34, 34, 34);
+}
+
+.card p {
+    font-size: 1.1em;
+    color: rgb(34, 34, 34);
+    margin: 10px 0px;
+}
+
+/***section-2 style end here***/
+
+
+.background-1 .row .girls-img {
+    width: 40%;
+}
+
+.background-1 .row .develop-text-area {
+    width: 60%;
+    margin-top: 70px;
+}
+
+.background-1 .row .girls-img img {
+    height: 400px;
+    width: 400px;
+}
+
+.background-1 .row .develop-text-area h4 {
+    font-size: 2.5em;
+    color:rgb(34, 34, 34);
+}
+
+/***third section end here***/
+
+.background-2 .row .text-area {
+    width: 60%;
+    margin-top: 200px;
+}
+
+.background-2 .row .image-area {
+    width: 40%;
+    margin-top: 100px;
+}
+
+.background-2 .row .text-area h4 {
+    font-size: 2.5rem;
+    color: rgb(34, 34, 34);
+}
+
+.background-2 .row .image-area img{
+    width: 400px;
+    height: 400px;
+}
+
+/***forth section end here***/
+
+.blog-content .row #blog-card {
+    height: 430px;
+    width: 320px;
+    background-color: rgb(243, 243, 243);
+    margin: 0px 15px;
+    text-align: center;
+    color: rgb(71, 71, 71);
+    border-radius: 10px;
+}
+
+#blog-card img {
+    height: 200px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#blog-card h2 {
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 0px 20px;
+}
+
+#blog-card p {
+    font-size: 1em;
+    padding: 0px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.footer-area {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+}
+
+
+
+.footer-area h2 {
+    font-size: 3em;
+    padding: 20px 0px;
+    color: white;
+}
+
+.footer-area h5 {
+    font-size: 1.1em;
+    color: white;
+}
