@@ -93,13 +93,13 @@ section {
     margin: 0px 35px;
     padding: 30px;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 100px;
     box-shadow: 0px 0px 10px 0px white;
 }
 
 
 #card-1 {
-    background-color: #EDF5F6;
+    background-color: #e6f7f8;
 }
 
 #card-2 {
@@ -152,6 +152,7 @@ section {
 
 .background-2 .row .text-area {
     width: 60%;
+    margin-right: 10px;
     margin-top: 200px;
 }
 
@@ -184,8 +185,9 @@ section {
 
 #blog-card img {
     height: 200px;
-    width: 320px;
+    width: 100%;
     object-fit: cover;
+    object-position: center center;
     border-radius: 10px 10px 0px 0px;
 }
 
